@@ -12,7 +12,8 @@ To not overcomplicate things, each experience could be just a separate service, 
 * VR scans - there are small libraries of scanned items, like e.g. museum exhibition items (will add examples later)
 * ...
 
-## Frameworks
+## Frameworks/APIs
 
 * [MozVR - VR for web browser](http://mozvr.com/)
 * [MashApe](https://market.mashape.com/)
+* [Some APIs from MashApe that looked relevant to me](https://market.mashape.com/jhirniak/apis/following)
