@@ -14,5 +14,5 @@ To not overcomplicate things, each experience could be just a separate service, 
 
 ## Frameworks
 
-* MozVR - VR for web browser
-* https://market.mashape.com/
+* ![MozVR - VR for web browser](http://mozvr.com/)
+* ![MashApe](https://market.mashape.com/)
