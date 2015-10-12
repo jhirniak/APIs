@@ -1,6 +1,8 @@
 # Stack
-[KangoExtensions](http://kangoextensions.com/)
 
+## Libraries
+[KangoExtensions](http://kangoextensions.com/)
+[CrossRider - Cross Browser Extensions](http://crossrider.com/developers)
 [D3 - do wizualizacji](http://d3js.org/)
 
 # Query
@@ -15,5 +17,4 @@
 
 ## NLP
 [loudelement](https://market.mashape.com/loudelement/free-natural-language-processing-service)
-
 
