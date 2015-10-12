@@ -19,6 +19,11 @@
 * facts about actors ->
 * interviews and extra content, etc.
 
+## Academia
+* Related areas
+* Main topics
+* Related sources
+
 # Ads:
 * Trailers
 * Loty
