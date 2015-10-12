@@ -1,5 +1,6 @@
 # Stack
 [http://kangoextensions.com/](KangoExtensions)
+[http://d3js.org/](D3 - do wizualizacji)
 
 # Query
 ## Watson
