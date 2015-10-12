@@ -11,6 +11,7 @@
 [http://www.wolframalpha.com/](WolframAlpha)
 [http://products.wolframalpha.com/api/](WolframAlpha API)
 
-
+## NLP
+[https://market.mashape.com/loudelement/free-natural-language-processing-service](loudelement)
 
 
