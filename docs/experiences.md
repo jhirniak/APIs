@@ -11,6 +11,7 @@
 * Weather
 * Unit conversion
 * Place -> Famous people -> Quotes
+* News
 
 ## Movies
 * Get move info from IMDB ->
@@ -18,11 +19,17 @@
 * trip to the place of recordings ->
 * facts about actors ->
 * interviews and extra content, etc.
+* News
 
 ## Academia
 * Related areas
 * Main topics
 * Related sources
+* News related to topic
+
+## Places
+* News from that area
+
 
 # Ads:
 * Trailers
