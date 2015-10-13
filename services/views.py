@@ -5,9 +5,9 @@ from extractors.image import ImageExtractor
 from extractors.music import MusicExtractor
 from categoriser import Categoriser
 from runner import Runner
+from combiner import Combiner
 
 # Create your views here.
-from services.plugins import ServicePluginPoint
 
 
 def index(request):
@@ -37,6 +37,8 @@ def process(request):
 
     experiences = runner.gather_experiences(processed_text, categories)
 
-    print experiences
+    combiner = Combiner()
 
-    return JsonResponse({'foo': 'baar'})
+    combined = combiner.combine(experiences)
+
+    return JsonResponse({'html': combined})

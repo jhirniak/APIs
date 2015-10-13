@@ -2,6 +2,10 @@ from plugins import ServicePluginPoint
 from multiprocessing import Pool
 
 
+def run_plugin((plugin, processed_text)):
+    return plugin.get_experience(processed_text)
+
+
 class Runner:
     def __init__(self, pool_size):
         self.pool_size = pool_size
@@ -24,10 +28,11 @@ class Runner:
             categories_set = set(categories)
 
             for plugin in plugins:
-                same_categories = set.intersection(categories_set, set(plugin.categories()))
+                if plugin.is_active():
+                    same_categories = set.intersection(categories_set, set(plugin.categories()))
 
-                if len(same_categories) > 0:
-                    plugins_to_be_run += plugin
+                    if len(same_categories) > 0:
+                        plugins_to_be_run += [plugin]
 
             return plugins_to_be_run
         else:
@@ -40,9 +45,6 @@ class Runner:
 
         zipped = zip(plugins, processed_text_list)
 
-        result = pool.apply_async(self.__run_plugin, zipped)
+        result = pool.map_async(run_plugin, zipped)
 
         return result.get()
-
-    def __run_plugin(self, (plugin, processed_text)):
-        return plugin.get_experience(processed_text)

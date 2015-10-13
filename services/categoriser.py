@@ -3,4 +3,4 @@ class Categoriser:
         pass
 
     def categorise(self, text):
-        return []
+        return ['*']
