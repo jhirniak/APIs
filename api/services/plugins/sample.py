@@ -1,4 +1,4 @@
-from services.plugins import ServicePluginPoint
+from api.services.plugin_points import ServicePluginPoint
 
 
 class SampleService(ServicePluginPoint):

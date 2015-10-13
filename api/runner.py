@@ -1,4 +1,4 @@
-from plugins import ServicePluginPoint
+from services.plugin_points import ServicePluginPoint
 from multiprocessing import Pool
 
 
