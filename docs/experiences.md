@@ -39,3 +39,8 @@
 * Uber, cityplaner, hailo
 * Currency shops and rates
 * House sales (+ crime data?)
+
+# How we experience?
+So, I've been reading [this article on how fb describes what's in photos to blind people](http://techcrunch.com/2015/10/13/facebooks-working-on-a-tool-to-help-the-blind-see-images/#.wqgozt:BuEF), and thought how we all differently are used to experience certain things (or in same cases what are limitations are). If we are going to have summary module and object recognition API then why not add blind mode which will also read what's in the picture (for instance). Or based on the experience processing could say more about not just what is in the photo, but in the picture there is Edinburgh Castle (built in... blabla to which X was on 12/05/2015), etc.
+
+  * [article](http://techcrunch.com/2015/10/13/facebooks-working-on-a-tool-to-help-the-blind-see-images/#.wqgozt:BuEF)
