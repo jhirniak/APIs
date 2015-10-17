@@ -63,7 +63,7 @@ def getDescription(token):
 
   desc = json.loads(response.read().decode('utf-8'))
 
-  if desc['name']:
+  if 'name' in desc:
     return desc['name']
 
 if __name__ == "__main__":
