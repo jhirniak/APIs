@@ -8,6 +8,8 @@ When looking up for description of potatos in [this picture](https://upload.wiki
 4. brown beige yellow beans
 5. None
 6. sweet potatos
+7. brown beige and pink potatoes
+8. brown oval root crops
 
 ... and here is a picture of potatos ;).
 
