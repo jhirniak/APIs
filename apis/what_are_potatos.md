@@ -6,6 +6,8 @@ When looking up for description of potatos in [this picture](https://upload.wiki
 2. purple brown and maroon potato
 3. orange brown and red oval stones
 4. brown beige yellow beans
+5. None
+6. sweet potatos
 
 ... and here is a picture of potatos ;).
 
