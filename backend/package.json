@@ -1,0 +1,31 @@
+{
+  "name": "ExperienceMore Server",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Jaroslaw Hirniak, Bartosz Krol, Michael Lotkowski, Konrad Stojanowski",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhirniak/fbh/server"
+  },
+  "engines": {
+    "node": "latest"
+  },
+  "scripts": {
+    "start": "node dist/server.js -p 3000"
+  }
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "commander": "^2.5.0",
+    "glob": "^4.3.1",
+    "gulp": "latest",
+    "handlebars": "^2.0.0",
+    "handlebars-helpers": "^0.5.8",
+    "hapi": "latest",
+    "hoek": "^2.10.0",
+    "joi": "^5.0.2",
+    "mongoose": "^3.9.5",
+    "require-directory": "^2.0.0"
+  },
+  "devDependencies": {}
+}
