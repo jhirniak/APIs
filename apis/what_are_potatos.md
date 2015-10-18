@@ -7,7 +7,7 @@ When looking up for description of potatos in [this picture](https://upload.wiki
 3. orange brown and red oval stones
 4. brown red and orange oval stones
 5. brown beige yellow beans
-6. sweet potatos
+6. sweet potatoes
 7. brown beige and pink potatoes
 8. brown oval root crops
 9. brown yellow and purple pebble
