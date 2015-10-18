@@ -24,7 +24,7 @@ All return answers in chronological order (from oldest to latest):
 
 The answer seems clearly to change with time, it can go from right to totally unexpected answer at the beginning, in the middle getting similar description, but some not that much expected (e.g. beans or crops), at the end getting one answer repeatedly, but which also changes (at the end I was getting 200 sweet potatoes, which then changed to assorted potatoes).
 
-This is quite interesting how many responses I got within 2 days and the convergance to one answer, but it is worth noting that in general the quality of the answer improved.
+This is quite interesting how many responses I got within 2 days and the convergance to one answer, but it is worth noting that in general the quality of answer improved.
 
 # Observations
 
@@ -33,6 +33,19 @@ This is quite interesting how many responses I got within 2 days and the converg
 * As time went answer seemed to improve at the end arriving at very close description, but losing some content. At the beginning we got clear description of colors what at the end was replaced with word assorted (i.e. giving very human-like description).
 * I query resulted in 16 different answer.
 * It is unclear from the observation how the service works as results can change e.g. from potatoes to stones and from stones to crops in a metter of a minute. However, after many requests service seems to arrive at good and stable answer. CloudSightAPI is said to use MechanicalTurk, so it may explain how the answer improves with time. However, short-timed changes are more unexpected.
+
+# Remarks
+
+* Initial answer, which we most carry about, at the beginning was quite bad. We carry about the initial answer very much because based on it we are going to generate experience.
+* Answers improve with time, so likely if someone will request answer to the same picture after some time it can return correct or better response. However, it puts a whole caching of such requests in question.
+* Finial answer was very human-like. If CloudSightAPI uses MechanicalTurk then it may suggest the origin.
+* The whole application of CloudSightAPI in our case puts the behaviour at question.
+* One image request on paid plan costs about $0.05 per request. What given the findings is a really high cost.
+
+# Conclusion
+
+* As image processing is important part of our application, it would be definitely worthfile to create a standarised image recognition testing benchmark and put such services and potentially our algorithm to test. Then we could make an informed decision towards what we are going to use and what we can expect out of that.
+* I will do a testing framework over the next week (before 25/10), look for other way of using images, and integrate it within image based experience creation pipeline (to be developed before 25/10 as well).
 
 # Last, but not least...
 
