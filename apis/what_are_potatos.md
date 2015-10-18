@@ -4,6 +4,7 @@
 When looking up for description of potatos in [this picture](https://upload.wikimedia.org/wikipedia/commons/a/ab/Patates.jpg) I got few different responses from [CloudSightAPI](http://cloudsightapi.com/), some within minutes between requests.
 
 All return answers in chronological order (from oldest to latest):
+
 1. orange brown and red oval fruits
 2. purple brown and maroon potato
 3. orange brown and red oval stones
