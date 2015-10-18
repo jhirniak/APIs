@@ -1,9 +1,8 @@
 # fbh
-Run sample app:
 
-pip install django
-pip install django-plugins
+# Running
 
-python manage.py migrate
+## Hapi Server
 
-python manage.py runserver
+
+## Client
