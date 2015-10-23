@@ -102,4 +102,3 @@ if __name__ == "__main__":
   desc = getDescription(token, trials, delay)
 
   print ('Image description: {}'.format(desc))
-
