@@ -1,5 +1,5 @@
 {
-  "name": "ExperienceMore Server",
+  "name": "ExperienceMore-Server",
   "version": "0.0.0",
   "description": "",
   "author": "Jaroslaw Hirniak, Bartosz Krol, Michael Lotkowski, Konrad Stojanowski",
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "node dist/server.js -p 3000"
-  }
+  },
   "dependencies": {
     "chalk": "^0.5.1",
     "commander": "^2.5.0",

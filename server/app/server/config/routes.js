@@ -19,6 +19,12 @@ module.exports = [
         config: defaultRouteConfig
     },
     {
+        method: 'POST',
+        path: '/api/v1/image',
+        handler: require('../controllers/experiences/image'),
+        config: defaultRouteConfig
+    },
+    {
         method: 'GET',
         path: '/blog/list',
         handler: require('../controllers/articles/list.article.controller'),
